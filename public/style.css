@@ -1,0 +1,19 @@
+::-webkit-scrollbar{
+    display: none;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(206, 195, 195);
+}
+#message-container{
+    height: 50vh;
+    padding: 10px;
+   overflow-y: scroll;
+   
+}
+#chat-container{
+    display: none;
+}
